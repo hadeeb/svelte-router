@@ -1,0 +1,24 @@
+{
+  "name": "svelte-hash-router",
+  "description": "A simple client side hash router for Svelte 3",
+  "svelte": "src/index.svelte",
+  "module": "index.mjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "rollup": "^1.10.0",
+    "rollup-plugin-svelte": "^5.0.3",
+    "svelte": "^3.0.0-beta.25"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "index.mjs",
+    "index.js"
+  ]
+}
